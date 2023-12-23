@@ -1,0 +1,236 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Management
+</name>
+</assembly>
+<members>
+<member name="P:Management.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Management.My.Resources.Resources._1_6fYMSdQH1RJdSOhPBeLiAw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources._2098502">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.buy_icon_png_41307__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.Capture">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.Capture1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.Customer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.customers_icon_35912">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.customers_icon_359121">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.customers_icon_359122">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.daniel_korpai_HyTwtsk8XqA_unsplash">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.daniel_korpai_HyTwtsk8XqA_unsplash1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.images">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.item">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.login">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.pngegg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.pngegg1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.PngItem_2523180">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.PngItem_25231801">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.PngItem_25231802">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.report">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.report1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.shutdown_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.transcation">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Management.My.Resources.Resources.transcation1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Management.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Management.comzDataSet.tblBuyingDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Management.comzDataSet.tblCustomerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Management.comzDataSet.tblItemDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Management.comzDataSet.BuyingReportDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Management.comzDataSet.CustomerReportDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Management.comzDataSet.tblBuyingRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Management.comzDataSet.tblCustomerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Management.comzDataSet.tblItemRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Management.comzDataSet.BuyingReportRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Management.comzDataSet.CustomerReportRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Management.comzDataSet.tblBuyingRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Management.comzDataSet.tblCustomerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Management.comzDataSet.tblItemRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Management.comzDataSet.BuyingReportRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Management.comzDataSet.CustomerReportRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Management.comzDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Management.comzDataSetTableAdapters.tblBuyingTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Management.comzDataSetTableAdapters.tblCustomerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Management.comzDataSetTableAdapters.tblItemTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Management.comzDataSetTableAdapters.BuyingReportTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Management.comzDataSetTableAdapters.CustomerReportTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Management.comzDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Management.comzDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Management.comzDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Management.comzDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Management.comzDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Management.comzDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Management.comzDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Management.comzDataSetTableAdapters.TableAdapterManager.UpdateAll(Management.comzDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Management.comzDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Management.comzDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Management.comzDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

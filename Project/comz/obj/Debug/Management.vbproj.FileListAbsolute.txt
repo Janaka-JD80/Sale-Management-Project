@@ -1,0 +1,41 @@
+D:\New folder\nvq\Y Project\Management\Management\bin\Debug\Management.exe.config
+D:\New folder\nvq\Y Project\Management\Management\bin\Debug\Management.exe
+D:\New folder\nvq\Y Project\Management\Management\bin\Debug\Management.pdb
+D:\New folder\nvq\Y Project\Management\Management\bin\Debug\Management.xml
+D:\New folder\nvq\Y Project\Management\Management\obj\Debug\Management.Login.resources
+D:\New folder\nvq\Y Project\Management\Management\obj\Debug\Management.Resources.resources
+D:\New folder\nvq\Y Project\Management\Management\obj\Debug\Management.vbproj.GenerateResource.Cache
+D:\New folder\nvq\Y Project\Management\Management\obj\Debug\Management.exe
+D:\New folder\nvq\Y Project\Management\Management\obj\Debug\Management.xml
+D:\New folder\nvq\Y Project\Management\Management\obj\Debug\Management.pdb
+D:\New folder\nvq\Y Project\Management\Management\obj\Debug\Management.Customer.resources
+D:\New folder\nvq\Y Project\Management\Management\obj\Debug\Management.Items.resources
+D:\New folder\nvq\Y Project\Management\Management\obj\Debug\Management.Users.resources
+D:\New folder\nvq\Y Project\Management\Management\obj\Debug\Management.frmMain.resources
+D:\New folder\nvq\Y Project\Management\Management\obj\Debug\Management.Buying.resources
+D:\New folder\nvq\Y Project\Management\Management\obj\Debug\Management.Additem.resources
+D:\New folder\Vb\comz\Management\bin\Debug\Management.exe.config
+D:\New folder\Vb\comz\Management\obj\Debug\Management.exe
+D:\New folder\Vb\comz\Management\obj\Debug\Management.xml
+D:\New folder\Vb\comz\Management\obj\Debug\Management.pdb
+D:\New folder\Vb\comz\comz\bin\Debug\Management.exe.config
+D:\New folder\Vb\comz\comz\obj\Debug\Management.exe
+D:\New folder\Vb\comz\comz\obj\Debug\Management.xml
+D:\New folder\Vb\comz\comz\obj\Debug\Management.pdb
+D:\New folder\Vb\comz\comz\bin\Debug\Management.exe
+D:\New folder\Vb\comz\comz\bin\Debug\Management.pdb
+D:\New folder\Vb\comz\comz\bin\Debug\Management.xml
+D:\New folder\Vb\comz\comz\obj\Debug\Management.Buying.resources
+D:\New folder\Vb\comz\comz\obj\Debug\Management.Customer.resources
+D:\New folder\Vb\comz\comz\obj\Debug\Management.frmMain.resources
+D:\New folder\Vb\comz\comz\obj\Debug\Management.Items.resources
+D:\New folder\Vb\comz\comz\obj\Debug\Management.Login.resources
+D:\New folder\Vb\comz\comz\obj\Debug\Management.Resources.resources
+D:\New folder\Vb\comz\comz\obj\Debug\Management.vbproj.GenerateResource.Cache
+D:\New folder\Vb\comz\comz\obj\Debug\Management.vbprojResolveAssemblyReference.cache
+D:\New folder\Vb\comz\comz\obj\Debug\Management.frmReports.resources
+D:\New folder\Vb\comz\comz\obj\Debug\Management.frmProfitReport.resources
+D:\New folder\Vb\comz\comz\obj\Debug\RdlCompile.cache
+D:\New folder\Vb\comz\comz\obj\Debug\RdlCompile.compiled
+D:\New folder\Vb\comz\comz\obj\Debug\Management.frmCustomerReport.resources
+D:\New folder\Vb\comz\comz\obj\Debug\Management.frmReceipt.resources

@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B6E69B91-F637-4C4B-ADC5-1677DA90F485}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Management.frmMain</StartupObject>
+    <RootNamespace>Management</RootNamespace>
+    <AssemblyName>Management</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Management.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Management.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Buying.Designer.vb">
+      <DependentUpon>Buying.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Buying.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="comzDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>comzDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="comzDataSet.vb">
+      <DependentUpon>comzDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.Designer.vb">
+      <DependentUpon>Customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerReport.Designer.vb">
+      <DependentUpon>frmCustomerReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomerReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProfitReport.Designer.vb">
+      <DependentUpon>frmProfitReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmProfitReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReceipt.Designer.vb">
+      <DependentUpon>frmReceipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReceipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReports.Designer.vb">
+      <DependentUpon>frmReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Items.Designer.vb">
+      <DependentUpon>Items.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Items.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Buying.resx">
+      <DependentUpon>Buying.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer.resx">
+      <DependentUpon>Customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerReport.rdlc" />
+    <EmbeddedResource Include="frmCustomerReport.resx">
+      <DependentUpon>frmCustomerReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProfitReport.resx">
+      <DependentUpon>frmProfitReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReceipt.resx">
+      <DependentUpon>frmReceipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReports.resx">
+      <DependentUpon>frmReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Items.resx">
+      <DependentUpon>Items.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfitReport.rdlc" />
+    <EmbeddedResource Include="Report1.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="comzDataSet.xsc">
+      <DependentUpon>comzDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="comzDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>comzDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="comzDataSet.xss">
+      <DependentUpon>comzDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2098502.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\daniel-korpai-HyTwtsk8XqA-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PngItem_2523180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PngItem_25231801.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Customer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transcation.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\daniel-korpai-HyTwtsk8XqA-unsplash1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customers-icon-35912.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customers-icon-359121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customers-icon-359122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngegg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transcation1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buy-icon-png-41307 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngegg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PngItem_25231802.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdown-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\daniel-korpai-HyTwtsk8XqA-unsplash2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
